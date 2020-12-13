@@ -1,0 +1,296 @@
+
+
+html {
+    background-color:#064A8E;
+    
+    font-family: Verdana;
+    
+}
+
+main.wrapper {
+    
+   
+  background-color: #0BA9DC;
+  color: white;
+  font-size: 38pt;
+  text-align: center;
+
+}
+
+
+
+
+.h2
+{
+  font-size:90%;
+  text-align:justify;
+  font-family: consolas;
+  
+  font-weight: bold;
+  margin-top:30px;
+  background: #351E73;
+  width:50%;
+  border-radius: 10px;
+  
+  
+
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("images/background.jpg");
+  min-height: 200px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Needed to position the navbar */
+  position: relative;
+}
+.container {
+  position: absolute;
+  margin: 20px;
+
+  width: 100%;
+
+  }
+/* The navbar */
+
+
+
+
+
+
+
+
+
+
+
+
+div.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-left:4px;
+    height: 0;
+    overflow: hidden;
+    margin: auto;
+    max-width: 98%;
+} 
+
+div.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+  
+  clear:both;
+   
+}
+
+
+
+.description1 {
+  border: 3px solid blue;
+  padding: 10px 20px 20px;
+  max-width: 100%;
+  
+}
+.description1 .image{
+
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 10px 10px 0 0;
+  }
+.description1 .text
+{
+
+    display: inline-block;
+    width: 65%;
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+
+/* breweries styles */
+.services {
+  padding-right: 20px;
+
+}
+
+.services > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+  list-style-type:none; 
+
+}
+
+.services > ul > li {
+  border: 1px solid #E2E2E2;
+  border-radius: .5rem;
+  background: #292c2f;
+  list-style-type:none; 
+}
+
+.services > ul > li > figure {
+  max-height: 220px;
+  overflow: hidden;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+  position: relative;
+}
+
+.services > ul > li > figure > img {
+  width: 120%;
+}
+
+.services > ul > li > figure > figcaption {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0,0,0,.7);
+  width: 100%;
+}
+
+.services > ul > li > figure > figcaption > h3 {
+  color: white;
+  padding: .75rem;
+  font-size: 17px;
+}
+
+.services > ul > li > p {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 1rem .75rem;
+  color: #666666;
+
+}
+
+.services > ul > li > a {
+  padding: .5rem 1rem;
+  margin: .5rem;
+  bottom: 0;
+}
+.services a {
+  background-color:#5383d3;
+  text-decoration: none;
+  color: white;
+  border-radius: .25rem;
+  text-align: center;
+  display: inline-block;
+  transition: all .3s;
+  font-size: 20px;
+  font-family: consolas;
+  bottom: 0;
+}
+
+
+
+
+
+
+
+
+/* Three columns side by side */
+.columnteam {
+  float: left;
+  width: 30%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  font-size: 16px;
+}
+.cardteam img{
+ height:10%;
+}
+/* Add some shadows to create a card effect */
+.cardteam {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.containerteam {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.containerteam::after, .rowteam::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.titleteam {
+  color: grey;
+}
+
+.buttonteam {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.buttonteam:hover {
+  background-color: #555;
+}
+
+
+
+
+
+
+
+
+@media all and (min-width:1400px) {
+  
+   main.wrapper {
+    width:80%;
+    margin:auto;
+        text-align:justify;
+      }
+        
+  }
+
+@media all and (min-width:737px) and (max-width:1399px) {
+     main.wrapper {
+    width:80%;
+      margin:auto;
+    }
+    
+   
+  }
+
+
+@media all and (max-width:736px) {
+    main.wrapper {
+    width:80%;
+    margin:2%;
+        padding:2%;
+     }
+ .description1{
+
+
+      width: 100%;
+    }
+    .columnteam {
+    width: 100%;
+    display: block;
+  }
+}
+ 
+
+
+
+
+
+  
